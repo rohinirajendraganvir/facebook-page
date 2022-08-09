@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.topdiv {
+    background-color: #e6e8eb;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.bottomdiv {
+    height: 45vh;
+    box-shadow: 5px 5px 10px blue;
+}
+
+.facebook {
+    padding-top: 2rem;
+    background-color: whitesmoke;
+    border-radius: .2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35vh;
+    width: 22vw;
+    gap: 1rem;
+    box-shadow: 2px 2px 5px 5px gray;
+    overflow: scroll;
+}
+
+.topdiv h1 {
+    font-family: 'Kanit', sans-serif;
+    color: #166fe5;
+    font-size: 2.5rem;
+}
+.accounts {
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook input {
+    font-size: 1.1rem;
+    padding: .5rem;
+    width: 18vw;
+    outline-style: none;
+    border-radius: .2rem;
+}
+
+.facebook p {
+    font-size: 1.2rem;
+}
+
+.facebook button {
+    font-size: 1.6rem;
+    width: 19vw;
+    padding: .6rem;
+    background-color: #166fe5;
+    color: white;
+    border-radius: .5rem;
+}
+
+.accounts {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.accounts a {
+    margin-top: 1rem;
+    font-size: .9rem;
+    text-decoration: none;
+    color: #166fe5;
+}
+
+
+
+.ul1{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: .5rem;
+    justify-content: center;
+}
+.ul1 button{
+    font-size: 1rem;
+    padding-left: .5rem;
+        padding-right: .5rem;
+}
